@@ -1,2 +1,20 @@
 How to prepare your own cloud immitation with VMware ang got ready your DevOps envirounment.
 
+Used hardware:
+- MSI Nettop
+- RAM 64Gb
+- SSD1 1TB
+- SSD2 500Gb
+- Host OS Windows 10
+- Host Hyperviser VMware Workstation 17
+- Virtual ESXi1 RAM 12Gb, Disk 300Gb
+- Virtual ESXi RAM 12Gb? Disk 400Gb
+- Virtual host Windows 10
+
+DevOps envirounment to be installed on Virtual host Windows 10.
+It include:
+
+- Visual Studio code and its plugins
+- VMware tools (like OVF)
+- Vagrant and plugins for VMware (vagrant plugin install vagrant-vmware-desktop)
+
