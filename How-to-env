@@ -34,7 +34,16 @@ Installation in Virtual Windows 10
 6. in Visual Studio CLI install vagrant:
     vagrant plugin install vagrant-vmware-desktop
     vagrant plugin install vagrant-vmware-esxi
+    vagrant plugin install vagrant-winrm-syncedfolders
+    vagrant plugin install vagrant-reload
 7. Install vagrant-vmware-utility via MSI file for Windows
 8. Install VMware-ovf-tool via MSI file for Windows
-9. 
+
+===============================================================================================
+
+Check installation result
+
+Run following CLI command to list installed vagrant plugins
+     vagrant plugin list
+
 
