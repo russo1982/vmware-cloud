@@ -18,3 +18,23 @@ It include:
 - VMware tools (like OVF)
 - Vagrant and plugins for VMware (vagrant plugin install vagrant-vmware-desktop)
 
+==============================================================================================
+
+Steps taken
+
+1. Intsall VMware Workstation 17
+2. Install virtual ESXi 7 inside VMware Workstation
+3. Install virtual OS Windows 10 inside VMware Workstation
+ 
+Installation in Virtual Windows 10
+
+4. Install Visual Studio Code vesion 1.96
+5. Inside Visual Studio install all needed plugins
+6. Install vagrant via MSI file for Windows
+6. in Visual Studio CLI install vagrant:
+    vagrant plugin install vagrant-vmware-desktop
+    vagrant plugin install vagrant-vmware-esxi
+7. Install vagrant-vmware-utility via MSI file for Windows
+8. Install VMware-ovf-tool via MSI file for Windows
+9. 
+
