@@ -43,6 +43,7 @@ Installation in Virtual Windows 10
     vagrant plugin install vagrant-vmware-esxi
     vagrant plugin install vagrant-winrm-syncedfolders
     vagrant plugin install vagrant-reload
+    vagrant plugin install vagrant-share
 7. Install vagrant-vmware-utility via MSI file for Windows
 8. Install VMware-ovf-tool via MSI file for Windows
 
