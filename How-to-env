@@ -28,10 +28,17 @@ Steps taken
  
 Installation in Virtual Windows 10
 
-4. Install Visual Studio Code vesion 1.96
+4. Install Visual Studio Code version 1.96
 5. Inside Visual Studio install all needed plugins
-6. Install vagrant via MSI file for Windows
-6. in Visual Studio CLI install vagrant:
+6. Install chcolate packet manager for Windows
+    PS  C:\Windows\system32> Get-ExecutionPolicy
+    PS  C:\Windows\system32> Set-ExecutionPolicy AllSigned
+    PS  C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    PS  C:\Windows\system32> choco --version
+7. Install vagrant
+    PS  C:\Windows\system32> choco install vagrant
+
+8. in Visual Studio CLI install vagrant:
     vagrant plugin install vagrant-vmware-desktop
     vagrant plugin install vagrant-vmware-esxi
     vagrant plugin install vagrant-winrm-syncedfolders
